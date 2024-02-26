@@ -7,7 +7,7 @@ Sometimes the official site doesnt have the most up-to-date image so you have to
 ## How to use
 
 ```bash
-docker pull ghcr.io/lambdajasonyang/wolframengine
+docker pull ghcr.io/lambdajasonyang/wolframengine:main
 ```
 
 ## building your own image with this image as a base
