@@ -13,7 +13,7 @@ docker pull ghcr.io/lambdajasonyang/wolframengine
 ## building your own image with this image as a base
 
 ```yml
-FROM ghcr.io/lambdajasonyang/wolframengine
+FROM ghcr.io/lambdajasonyang/wolframengine:main
 
 ARG WOLFRAM_ID
 ARG WOLFRAM_PASSWORD
